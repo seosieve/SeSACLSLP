@@ -13,6 +13,8 @@
 		4E0382E12C4F875A0016F1A6 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 4E0382E02C4F875A0016F1A6 /* Base */; };
 		4E0382E32C4F875D0016F1A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E0382E22C4F875D0016F1A6 /* Assets.xcassets */; };
 		4E0382E62C4F875D0016F1A6 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 4E0382E52C4F875D0016F1A6 /* Base */; };
+		4E0382EE2C4F879D0016F1A6 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 4E0382ED2C4F879D0016F1A6 /* .gitignore */; };
+		4E0382F02C4F886D0016F1A6 /* APIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0382EF2C4F886D0016F1A6 /* APIKey.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		4E0382E22C4F875D0016F1A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4E0382E52C4F875D0016F1A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4E0382E72C4F875D0016F1A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E0382ED2C4F879D0016F1A6 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		4E0382EF2C4F886D0016F1A6 /* APIKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKey.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +44,7 @@
 		4E0382CD2C4F875A0016F1A6 = {
 			isa = PBXGroup;
 			children = (
+				4E0382ED2C4F879D0016F1A6 /* .gitignore */,
 				4E0382D82C4F875A0016F1A6 /* SeSACLSLP */,
 				4E0382D72C4F875A0016F1A6 /* Products */,
 			);
@@ -63,6 +68,7 @@
 				4E0382E22C4F875D0016F1A6 /* Assets.xcassets */,
 				4E0382E42C4F875D0016F1A6 /* LaunchScreen.storyboard */,
 				4E0382E72C4F875D0016F1A6 /* Info.plist */,
+				4E0382EF2C4F886D0016F1A6 /* APIKey.swift */,
 			);
 			path = SeSACLSLP;
 			sourceTree = "<group>";
@@ -125,6 +131,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E0382EE2C4F879D0016F1A6 /* .gitignore in Resources */,
 				4E0382E32C4F875D0016F1A6 /* Assets.xcassets in Resources */,
 				4E0382E62C4F875D0016F1A6 /* Base in Resources */,
 				4E0382E12C4F875A0016F1A6 /* Base in Resources */,
@@ -140,6 +147,7 @@
 			files = (
 				4E0382DE2C4F875A0016F1A6 /* ViewController.swift in Sources */,
 				4E0382DA2C4F875A0016F1A6 /* AppDelegate.swift in Sources */,
+				4E0382F02C4F886D0016F1A6 /* APIKey.swift in Sources */,
 				4E0382DC2C4F875A0016F1A6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
